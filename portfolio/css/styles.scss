@@ -1,0 +1,172 @@
+/* Coolors Exported Palette - coolors.co/efefef-ea9319-e8c61b-354154-2b3035 */
+
+/* HSL */
+$color0: hsla(0%, 0%, 80%, 1);
+$color1: hsla(0%, 0%, 94%, 1);
+$color2: hsla(35%, 83%, 51%, 1);
+$color3: hsla(50%, 82%, 51%, 1);
+$color4: hsla(217%, 23%, 27%, 1);
+$color5: hsla(210%, 10%, 19%, 1);
+
+/* RGB */
+$color0: rgba(225, 225, 225, 1);
+$color1: rgba(239, 239, 239, 1);
+$color2: rgba(234, 147, 25, 1);
+$color3: rgba(232, 198, 27, 1);
+$color4: rgba(53, 65, 84, 1);
+$color5: rgba(43, 48, 53, 1);
+
+/* General */
+body, html {
+	height: 100%;
+	background: $color5;
+	color: $color0;
+	/*
+	background: rgba(134,174,204,1);
+	background: -moz-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, rgba(134,174,204,1)), color-stop(100%, rgba(212,228,239,1)));
+	background: -webkit-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+	background: -o-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+	background: -ms-linear-gradient(left, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+	background: linear-gradient(to right, rgba(134,174,204,1) 0%, rgba(212,228,239,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#86aecc', endColorstr='#d4e4ef', GradientType=1 );
+	*/
+}
+
+header {
+	padding-bottom:50px;
+}
+
+/* Gradient transparent - color - transparent  - took from https://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $color2, rgba(0, 0, 0, 0));
+}
+
+h4 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+/************************
+
+ APPLICATION CLASSES
+
+************************/
+
+.parallax {
+	/* The image used */
+	background-image: url('img_parallax.jpg');
+
+	/* Full height */
+	height: 100%;
+
+	/* Create the parallax scrolling effect */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.app-title-photo {
+	padding-top: 100px;
+	max-width: 250px;
+	padding-top: 200px;
+	padding-bottom: 100px;
+}
+
+.app-title {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	color: $color1;
+}
+
+.app-subtitle {
+	font-family: arial;
+	font-variant: small-caps;
+	text-align: center;
+	color: $color1;
+}
+
+.app-fake-photo {
+	font-size: 150%;
+	display: block;
+	width: 250px;
+	height: 160px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 80px;
+	border: 1px solid rgba(0,0,0,0.8);
+	color: transparent;
+   	text-shadow: 0 0 3px rgba(0,0,0,0.8);
+}
+
+.app-footer {
+    background: $color3;
+    margin-top: 120px;
+    position: relative
+}
+
+.app-footer .container {
+    padding: 40px 0 10px;
+    text-align: center;
+}
+
+.app-footer .container ul {
+	margin: 10px auto; 	   
+}
+
+.app-footer .container li {
+	display: inline-block; 	
+	margin: 10px;   
+}
+
+/**************************
+
+ CLASS OVERRRIDES
+
+***************************/
+
+.jumbotron-fluid {
+	padding:0;
+	height:100vh;
+}
+
+.brand-text {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 800;
+}
+
+/* 	Override of bootstrap class. Shrinks the card image size. */
+.card-img-top { 
+	max-width: 100%;
+	height: auto;
+	margin: 5px auto;
+	display: float;
+}
+
+/* 	Override of bootstrap class. Set the same height for all cards. So text most fit in (be aware of use long text) */
+.card {
+	height: 500px;
+	background-color: $color4;
+}
+
+.text-lg-center {
+	color: $color2;
+	margin: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: $color2;
+}
+
+.btn-primary {
+	background-color: #f0ad4e;
+	border-color: $color2;
+}
+
+.btn-primary:hover {
+	background-color: $color2;
+	border-color: #f0ad4e;
+}
