@@ -1,0 +1,106 @@
+/* Coolors Exported Palette - coolors.co/efefef-ea9319-e8c61b-354154-2b3035 */
+
+/* HSL */
+$color0: hsla(0%, 0%, 80%, 1);
+$color1: hsla(0%, 0%, 94%, 1);
+$color2: hsla(35%, 83%, 51%, 1);
+$color3: hsla(50%, 82%, 51%, 1);
+$color4: hsla(217%, 23%, 27%, 1);
+$color5: hsla(210%, 10%, 19%, 1);
+
+/* RGB */
+$color0: rgba(225, 225, 225, 1);
+$color1: rgba(239, 239, 239, 1);
+$color2: rgba(234, 147, 25, 1);
+$color3: rgba(232, 198, 27, 1);
+$color4: rgba(53, 65, 84, 1);
+$color5: rgba(43, 48, 53, 1);
+
+/* General */
+body, html {
+	height: 100%;
+	background: $color5;
+	color: $color4;
+}
+
+header {
+	padding-bottom:50px;
+}
+
+/* Gradient transparent - color - transparent  - took from https://css-tricks.com/examples/hrs/ */
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), $color2, rgba(0, 0, 0, 0));
+}
+
+h4 {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	color: $color5;
+}
+/************************
+
+ APPLICATION CLASSES
+
+************************/
+
+.app-title {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 900;
+	text-align: center;
+	color: $color1;
+}
+
+.app-footer {
+    background: $color3;
+    margin-top: 120px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.app-footer .container {
+    padding: 10px 0 10px;
+    text-align: center;
+}
+
+.app-footer .container ul {
+	margin: 10px auto; 	   
+}
+
+.app-footer .container li {
+	display: inline-block; 	
+	margin: 10px;   
+}
+
+
+/**************************
+
+ CLASS OVERRRIDES
+
+***************************/
+
+.jumbotron {
+	margin-top: 100px;
+}
+
+.brand-text {
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 800;
+	color: $color1;
+}
+
+.quoteblock {
+	margin: 50px 0;
+	padding: 0 100px;
+}
+
+.text-lg-center {
+	color: $color2;
+	margin: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	color: $color2;
+}
